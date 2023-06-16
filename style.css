@@ -1,0 +1,271 @@
+*{margin: 0;
+scroll-behavior: smooth;}
+
+.nav_bar_a{
+    max-width: 100%;
+    height: 40px;
+    background-color: aquamarine;
+    
+}
+
+.fa-linkedin:hover{
+    color: #0072b1;
+}
+.fa-twitter:hover{
+    color: #00acee;
+}
+.fa-facebook:hover{
+    color: #3b5998;
+}
+.fa-youtube:hover{
+    color: 	#FF0000;
+}
+.fa-reddit-alien:hover{
+    color: #ff4500;
+}
+.fa-tumblr:hover{
+    color: #34526f;
+}
+
+.nav_bar_a ul li{
+    float: left;
+    /* margin: 10px; */
+    list-style-type: none;
+    padding: 2px;
+}
+.nav_bar_a ul{
+    max-width: 100%;
+    position: relative;
+}
+
+.nav_bar_a ul li button{
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    top:6px;
+    left:90vw;
+    position: absolute;
+    padding: 5px 10px;
+    color: aqua;
+    background-color: blueviolet;
+}
+
+.nav_bar_b {
+
+    max-width: 100%;
+    height: 100px;
+    background-color: rgb(95, 255, 236);
+    max-width: 100%;
+    height: 100px;
+    background-color: rgb(95, 255, 236);
+    position: sticky;
+     top: 0;
+     /* padding: 5px; */
+     z-index: 999;
+
+}
+/* .nav_bar_b ul{
+    position : relative;
+  width : 840px;
+  margin : 0 10px 0 10px;
+  overflow: hidden;
+  left: -20vw;
+  
+} */
+
+/* .nav_bar_b ul li{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 15px;
+} */
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: yellow;
+}
+a:active{
+    color: pink;
+}
+
+.nav_bar_b ul li input{
+    border-radius: 10px 0 ;
+    border: 0.5px solid pink;
+}
+
+.papa_container{
+    margin-top: 0px;
+    position: relative;
+    height: 500px;
+    max-width: 100%;
+    background-color: blueviolet;
+}
+.title .image{
+    position: absolute;
+}
+.image img{
+    height: 419px;
+    width: 605px;
+    border-radius: 10px;
+}
+
+.papa_container .title {
+    width: 50%;
+    float: left;
+    margin: 100px;
+    margin-top: 50px;
+
+}
+.papa_container p{
+    width: 600px;
+    overflow: hidden;
+    text-align: justify;
+    font-size: x-large;
+
+}
+.papa_container .image{
+    float: left;
+    width: 30%;
+    margin-top: 40px;
+    margin-left: -40px;
+    clear: right;
+}
+.spacer{
+    width: 100%;
+    height: 10px;
+    clear: both;
+}
+
+.item-container{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 270px;
+    width: 280px;
+    overflow: auto;
+    position: relative;
+    float: left;
+    margin: 30px 143px;
+
+}
+.item-container:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.fa-heart:hover{
+    color: red;
+}
+.fa-eye:hover{
+    color: lightskyblue;
+}
+.fa-bars:hover{
+    color: rgb(92, 252, 145);
+}
+.items{
+    /* position: absolute; */
+    /* left: 10px; */
+    margin-left: -20px;
+}
+.item-container ul{
+    float: left;
+    height: 70px;
+    width: 20px;
+    position: absolute;
+    top: 25px;
+
+}
+.item-container ul li{
+    padding: 10px;
+    list-style-type: none;
+    
+}
+.item-container img{
+    width: 150px;
+    height: 130px;
+    float: left;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    clear: left;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.item-container p{
+    position: absolute;
+    top: 150px;
+    left: 27px;
+
+}
+.btn{
+    position: absolute;
+    top: 230px;
+    left: 40px;
+    
+}
+.btn button{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    color: aqua;
+    background-color: blueviolet;
+}
+.btn .btnDaSecond{
+    margin-left: 40px;
+}
+.bg-scroll-img{
+    background-attachment: fixed;
+    background-image: url("/E-comm_2/img/pramod-tiwari-tqQEwP4G7v8-unsplash.jpg");
+    background-repeat: no-repeat;
+    min-height: 600px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: -900px;
+}
+
+footer{
+    border: 5px solid aqua;
+    text-align: center;
+    padding: 40px;
+    background-color: blueviolet;
+    color: aqua;
+    text-decoration: underline;
+}
+footer ul li{
+    list-style: none;
+}
+footer p{
+    margin: 20px;
+}
+
+.floating-btn{
+    position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.fa-cart-plus{
+    margin-top: 30px;
+}
+
+.fa-layers-counter{
+    border-radius: 10px;
+    margin-top: -2px;
+    margin-left: -10px;
+    position: fixed;
+}
+
+
+  
+  
