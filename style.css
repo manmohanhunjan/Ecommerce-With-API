@@ -29,7 +29,7 @@ scroll-behavior: smooth;}
 
 .nav_bar_a ul li{
     float: left;
-    /* margin: 10px; */
+    margin: 10px;
     list-style-type: none;
     padding: 2px;
 }
@@ -63,16 +63,16 @@ scroll-behavior: smooth;}
      z-index: 999;
 
 }
-/* .nav_bar_b ul{
+.nav_bar_b ul{
     position : relative;
   width : 840px;
   margin : 0 10px 0 10px;
   overflow: hidden;
   left: -20vw;
   
-} */
+}
 
-/* .nav_bar_b ul li{
+.nav_bar_b ul li{
     float: left;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -81,7 +81,7 @@ scroll-behavior: smooth;}
     font-weight: bold;
     font-size: x-large;
     padding: 15px;
-} */
+}
 a{
     text-decoration: none;
 }
@@ -266,6 +266,3 @@ footer p{
     position: fixed;
 }
 
-
-  
-  
